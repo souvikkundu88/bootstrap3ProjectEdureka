@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Course page</title>
+    <title>Signup and Sign in page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap-theme.min.css">
@@ -38,100 +38,52 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Courses</h1>
-            <p>These are some of our courses freshly baked for you</p>
-        </div>
-    </div>
 
+    
     <div class="container">
-        <h2><strong>Web Development Basics</strong></h2>
+        
         <div class="row">
-            <div class="col-md-2">
-                <div class="thumbnail">
-                    <img src="javascript&jqueryEssentials.png" alt="JS&jQuery">
-                    <div class="caption">
-                        <h3>JS jQuery</h3>
-                        <p>Master JS & jQuery</p>
-                        <p>
-                            <a href="jsjq.html" class="btn btn-success">Learn More</a>
-                        </p>
+            <div class="col-md-6">
+                
+                <form action="" method="POST" role="form">
+                        <legend>Not a member?</legend>
+                        <h4><em><strong>Sign up here</strong></em></h4>
+                
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control" id="" placeholder="Input field">
+                        <label for="">Email ID</label>
+                        <input type="text" class="form-control" id="" placeholder="Input field">
+                        <label for="">Password</label>
+                        <input type="text" class="form-control" id="" placeholder="Input field">
+                        <label for="">Confirm Password</label>
+                        <input type="text" class="form-control" id="" placeholder="Input field">
                     </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+            </div>
+                <div class="col-md-6" style="padding-left: 50px">
+                    
+                    <form action="" method="POST" role="form">
+                        <legend>Already a member?</legend>
+                        <h4><em><strong>Login in here</strong></em></h4>
+                    
+                        <div class="form-group">
+                            <label for="">Email ID</label>
+                            <input type="text" class="form-control" id="" placeholder="Input field">
+                            <label for="">Password</label>
+                            <input type="text" class="form-control" id="" placeholder="Input field">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Log in</button>
+                    </form>
+                    
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="thumbnail">
-                    <img src="webDev.png" alt="Web Dev">
-                    <div class="caption">
-                        <h3>Web Dev</h3>
-                        <p>Master Web Dev</p>
-                        <p>
-                            <a href="webdev.html" class="btn btn-success">Learn More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
-    <div class="container">
-        <h2><strong>Front-end Development</strong></h2>
-        <div class="row">
-            <div class="col-md-2">
-                <div class="thumbnail">
-                    <img src="angular.png" alt="Angular">
-                    <div class="caption">
-                        <h3>Angular Development</h3>
-                        <p>Master Angular</p>
-                        <p>
-                            <a href="angular.html" class="btn btn-success">Learn More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="thumbnail">
-                    <img src="react.png" alt="React">
-                    <div class="caption">
-                        <h3>React Redux</h3>
-                        <p>Master React</p>
-                        <p>
-                            <a href="react.html" class="btn btn-success">Learn More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <h2><strong>Back-end Development</strong></h2>
-        <div class="row">
-            <div class="col-md-2">
-                <div class="thumbnail">
-                    <img src="nodejs.png" alt="nodejs">
-                    <div class="caption">
-                        <h3>Node.js Development</h3>
-                        <p>Master Node.js</p>
-                        <p>
-                            <a href="nodejs.html" class="btn btn-success">Learn More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="thumbnail">
-                    <img src="mongodb.png" alt="mongodb">
-                    <div class="caption">
-                        <h3>MongoDB</h3>
-                        <p>Master MongoDB</p>
-                        <p>
-                            <a href="mongodb.html" class="btn btn-success">Learn More</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+
 
     <footer class="text-center" style="margin-top: 20px">
         Copyright &copy; Brain4ce Education Solutions Pvt. Ltd. All rights Reserved.
